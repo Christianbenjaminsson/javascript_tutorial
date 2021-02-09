@@ -1,3 +1,27 @@
+//Functions and parameters
+const anotherName = "Dev Ed";
+const youtuber = 'Traversy Media';
+
+//Function 1
+function toUpper(text) {
+  const upperCased = text.toUpperCase();
+  console.log(upperCased);
+};
+
+toUpper(anotherName);
+toUpper(youtuber);
+
+//Function 2
+const toUpperCase = function() {
+  
+};
+
+//Function 3
+const toLowerCase = () => {
+  
+};
+
+// Variables
 var life = 100; // This is my life bar NUMBER
 life = life - 10;
 // 90
